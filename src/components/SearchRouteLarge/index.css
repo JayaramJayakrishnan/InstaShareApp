@@ -1,0 +1,15 @@
+.search-large-bg {
+  min-height: 100vh;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-large-content {
+  width: 90%;
+  flex-grow: 1;
+  max-width: 1040px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}

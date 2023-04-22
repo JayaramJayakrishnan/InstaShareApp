@@ -1,0 +1,157 @@
+.user-profile-details-container {
+  width: 90%;
+  max-width: 1040px;
+  display: flex;
+  align-self: center;
+  margin: 33px 0px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-details-container {
+    margin-top: 24px;
+    margin-bottom: 0px;
+  }
+}
+
+.user-profile-pic {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  margin-right: 64px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-pic {
+    display: none;
+  }
+}
+
+.sm-user-profile-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .sm-user-profile-details-container {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.user-profile-username {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 300;
+  color: #262626;
+  line-height: 32px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-username {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+.sm-user-profile-pic {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .sm-user-profile-pic {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 24px;
+  }
+}
+
+.user-profile-counts-container {
+  display: flex;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-counts-container {
+    flex-shrink: 1;
+  }
+}
+
+.user-profile-counts-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+  line-height: 24px;
+  margin-right: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-counts-text {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 14px;
+  }
+}
+
+.user-profile-counts-num {
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .user-profile-counts-num {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.user-profile-user-id {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-user-id {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+  }
+}
+
+.user-profile-bio {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #262626;
+  line-height: 24px;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-bio {
+    font-size: 14px;
+  }
+}

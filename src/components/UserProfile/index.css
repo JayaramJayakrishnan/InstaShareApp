@@ -1,0 +1,152 @@
+.user-profile-bg {
+  min-height: 100vh;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile-stories-container {
+  width: 90%;
+  max-width: 1040px;
+  display: flex;
+  align-self: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.user-profile-hr {
+  width: 90%;
+  max-width: 1040px;
+  border: 0.5px #c6c6c8 solid;
+  align-self: center;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-hr {
+    width: 100%;
+  }
+}
+
+.user-profile-posts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile-post-header-container {
+  width: 90%;
+  max-width: 1040px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-post-header-container {
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+.user-profile-post-icon {
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-post-icon {
+    font-size: 12px;
+  }
+}
+
+.user-profile-post-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #262626;
+  line-height: 32px;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-post-heading {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.user-profile-posts-ul-container {
+  width: 90%;
+  max-width: 1040px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+@media (max-width: 767px) {
+  .user-profile-posts-ul-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.no-post-view-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.no-post-icon-container {
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+  border: 2px #262626 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .no-post-icon-container {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 8px;
+  }
+}
+
+.no-post-icon {
+  font-size: 46px;
+  color: #262626;
+}
+
+@media (max-width: 767px) {
+  .no-post-icon {
+    font-size: 28px;
+  }
+}
+
+.no-post-view-text {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 300;
+  color: #262626;
+  line-height: 48px;
+  margin: 0px;
+}
+
+@media (max-width: 767px) {
+  .no-post-view-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

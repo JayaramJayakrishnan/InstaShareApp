@@ -1,0 +1,20 @@
+.user-feed {
+  width: 90%;
+  max-width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+  .user-feed {
+    width: 100%;
+  }
+}
+
+.posts-unordered-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 0px;
+}

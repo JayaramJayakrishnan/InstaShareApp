@@ -1,0 +1,31 @@
+.profile-story-container {
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+  border: 1px #dbdbdb solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 36px 36px 36px 0px;
+}
+
+@media (max-width: 767px) {
+  .profile-story-container {
+    height: 64px;
+    width: 64px;
+    margin: 28px 20px 28px 0px;
+  }
+}
+
+.profile-story-pic {
+  height: 78px;
+  width: 78px;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .profile-story-pic {
+    height: 56px;
+    width: 56px;
+  }
+}
